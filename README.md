@@ -34,10 +34,20 @@ The error was caused by an incompatibility between DeepChem and the latest NumPy
 The error was fixed by installing compatible versions as shown below 
 
 # Install known compatible versions
+
+## 🧪 Environment Setup for DeepChem + Tox21 (GraphConv Featurizer)
+
+To avoid known compatibility issues with DeepChem and newer versions of NumPy, follow this installation guide to set up your environment properly.
+
+### ✅ Step-by-Step Installation (Colab Compatible)
+
+```python
+# Install known compatible versions
 %pip install numpy==1.23.5
 %pip install tensorflow==2.12.0
 %pip install --pre deepchem
 %pip install rdkit-pypi
+
 
 
 
