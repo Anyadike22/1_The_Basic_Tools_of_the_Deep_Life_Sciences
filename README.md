@@ -35,11 +35,8 @@ The error was fixed by installing compatible versions as shown below
 
 # Install known compatible versions
 
-## 🧪 Environment Setup for DeepChem + Tox21 (GraphConv Featurizer)
 
-To avoid known compatibility issues with DeepChem and newer versions of NumPy, follow this installation guide to set up your environment properly.
-
-### ✅ Step-by-Step Installation (Colab Compatible)
+### Installation (Colab Compatible)
 
 ```python
 # Install known compatible versions
